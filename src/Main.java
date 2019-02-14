@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+import search.BinarySearch;
 import sorts.*;
 
 public class Main {
