@@ -19,5 +19,8 @@ public class Main {
         ISort quickSort = new QuickSort();
         System.out.println("\nQuickSort:");
         System.out.println(Arrays.toString(quickSort.sort(target)));
+        ISort mergeSort = new MergeSort();
+        System.out.println("\nMergeSort:");
+        System.out.println(Arrays.toString(mergeSort.sort(target)));
     }
 }
