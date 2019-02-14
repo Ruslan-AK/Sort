@@ -16,5 +16,8 @@ public class Main {
         ISort selectionSort = new SelectionSort();
         System.out.println("\nSelectionSort:");
         System.out.println(Arrays.toString(selectionSort.sort(target)));
+        ISort quickSort = new QuickSort();
+        System.out.println("\nQuickSort:");
+        System.out.println(Arrays.toString(quickSort.sort(target)));
     }
 }
