@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.Scanner;
+
 import search.BinarySearch;
 import sorts.*;
 
@@ -22,5 +24,12 @@ public class Main {
         ISort mergeSort = new MergeSort();
         System.out.println("\nMergeSort:");
         System.out.println(Arrays.toString(mergeSort.sort(target)));
+        //USE BINARYSEARCH
+        BinarySearch bs = new BinarySearch();
+        System.out.println("Please enter what you sought for: ");
+        Scanner sc = new Scanner(System.in);
+        int what = sc.nextInt();
+        int result = bs.find(bubbleSort.sort(target),what);
+        System.out.println("Index is:"+result);
     }
 }
