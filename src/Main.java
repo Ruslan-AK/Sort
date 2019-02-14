@@ -13,5 +13,8 @@ public class Main {
         ISort bubbleSort = new BubbleSort();
         System.out.println("\nBubbleSort:");
         System.out.println(Arrays.toString(bubbleSort.sort(target)));
+        ISort selectionSort = new SelectionSort();
+        System.out.println("\nSelectionSort:");
+        System.out.println(Arrays.toString(selectionSort.sort(target)));
     }
 }
